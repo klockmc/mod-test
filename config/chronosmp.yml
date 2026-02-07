@@ -1,0 +1,76 @@
+abilities:
+  shadow_walker:
+    cooldownSeconds: 45
+    durationSeconds: 20
+    power: 2
+    range: 6
+  pyromaniac:
+    cooldownSeconds: 60
+    durationSeconds: 25
+    power: 2
+    range: 6
+  titan_might:
+    cooldownSeconds: 60
+    durationSeconds: 15
+    power: 2
+    range: 4
+  void_bender:
+    cooldownSeconds: 20
+    durationSeconds: 5
+    power: 1
+    range: 12
+  storm_caller:
+    cooldownSeconds: 90
+    durationSeconds: 0
+    power: 3
+    range: 6
+  natures_ally:
+    cooldownSeconds: 90
+    durationSeconds: 0
+    power: 3
+    range: 0
+  bloodlust:
+    cooldownSeconds: 40
+    durationSeconds: 15
+    power: 1
+    range: 0
+  phase_shift:
+    cooldownSeconds: 50
+    durationSeconds: 12
+    power: 1
+    range: 0
+  time_warp:
+    cooldownSeconds: 75
+    durationSeconds: 10
+    power: 1
+    range: 6
+  dragon_heart:
+    cooldownSeconds: 120
+    durationSeconds: 10
+    power: 1
+    range: 0
+  alchemist:
+    cooldownSeconds: 45
+    durationSeconds: 0
+    power: 1
+    range: 0
+  midas_touch:
+    cooldownSeconds: 60
+    durationSeconds: 20
+    power: 1
+    range: 0
+  berserker:
+    cooldownSeconds: 30
+    durationSeconds: 15
+    power: 1
+    range: 0
+  necromancer:
+    cooldownSeconds: 120
+    durationSeconds: 0
+    power: 3
+    range: 0
+  frost_weaver:
+    cooldownSeconds: 80
+    durationSeconds: 12
+    power: 1
+    range: 5
