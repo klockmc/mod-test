@@ -1,0 +1,43 @@
+plugins {
+    id 'fabric-loom' version '1.7-SNAPSHOT'
+}
+
+group = 'com.chronosmp'
+version = '1.0.0'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    minecraft "com.mojang:minecraft:1.21.1"
+    mappings "net.fabricmc:yarn:1.21.1+build.1:v2"
+    modImplementation "net.fabricmc:fabric-loader:0.15.11"
+    modImplementation "net.fabricmc.fabric-api:fabric-api:0.100.3+1.21.1"
+
+    implementation "org.yaml:snakeyaml:2.2"
+}
+
+java {
+    toolchain {
+        languageVersion = JavaLanguageVersion.of(21)
+    }
+}
+
+loom {
+    splitEnvironmentSourceSets()
+}
+
+sourceSets {
+    main {
+        resources {
+            srcDir 'src/main/resources'
+        }
+    }
+}
+
+jar {
+    from("LICENSE") {
+        rename { "${it}_${project.base.archivesName.get()}" }
+    }
+}

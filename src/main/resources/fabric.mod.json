@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "id": "chronosmp",
+  "version": "1.0.0",
+  "name": "ChronoSMP",
+  "description": "Custom abilities SMP mod with per-player abilities.",
+  "authors": ["ChronoSMP"],
+  "contact": {
+    "homepage": "",
+    "sources": ""
+  },
+  "license": "MIT",
+  "icon": "assets/chronosmp/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.chronosmp.ChronoSmpMod"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.15.11",
+    "fabric": "*",
+    "minecraft": ">=1.21"
+  }
+}
